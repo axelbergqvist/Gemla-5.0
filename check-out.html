@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <!-- <header class="site-header">
+        <div class="site-header-container check-out">
+            <div class="logo-container">
+                <a href=""><img src="img/logotyp_nav.svg" alt=""></a>
+            </div>
+        </div>
+    </header> -->
+    <section class="grid-sektion check-out-sektion">
+        <div class="container check-out">
+            <div class="grid-item info-details">
+                <div class="logo-container">
+                    <a href="home-page.html"><img src="img/logotyp_nav.svg" alt=""></a>
+                </div>
+                <div class="border"></div>
+                <div class="field-container information">
+                    <h4>Information</h4>
+                    <form action="">
+                        <div class="field-1 margin-24">
+                            <label for="fname">Förnamn</label>
+                            <input class="text" id="fname" type="firstname" placeholder="Ange ditt förnamn">
+                        </div>
+                        <div class="field-2 margin-24">
+                            <label for="lname">Efternamn</label>
+                            <input class="text" id="lname" type="lastname" placeholder="Ange ditt efternamn">
+                        </div>
+                        <div class="field-3 margin-24">
+                            <label for="email">Mejladress</label>
+                            <input class="text" id="email" type="email" placeholder="Ange din mejladress">
+                        </div>
+                        <div class="field-4 margin-24">
+                            <label for="adress">Adress</label>
+                            <input class="text" id="adress" type="adress" placeholder="Ange din adress">
+                        </div>
+                        <div class="field-5 margin-24">
+                            <label for="postcode">Postnummer</label>
+                            <input class="text" id="postcode" type="postalcode" placeholder="Ange ditt postnummer">
+                        </div>
+                        <div class="field-6 margin-24">
+                            <label for="city">Ort</label>
+                            <input class="text" id="city" type="city" placeholder="Ange din ort">
+                        </div>
+                        <div class="field-7">
+                            <label for="phone">Telefonnummer</label>
+                            <input class="text" id="phone" type="phonenumber" placeholder="Ange ditt telefonnummer">
+                        </div>
+                    </form>
+                </div>
+                <div class="field-container leverans">
+                    <h4>Leverans</h4>
+                    <form action="">
+                        <label for="fname">Leveransmetod</label>
+                        <div class="field-1 margin-8">
+                            <div class="method-1">
+                                <input type="radio" id="method1" name="method1" value="method1" checked>
+                                <label for="method1">EU Courier Delivery (DPD)</label>
+                            </div>
+                        </div>
+                        <div class="field-1 margin-8">
+                            <div class="method-1">
+                                <input type="radio" id="method1" name="method1" value="method1" checked>
+                                <label for="method1">DHL Express Home Delivery</label>
+                            </div>
+                        </div>
+                        <div class="field-1 margin-8">
+                            <div class="method-1">
+                                <input type="radio" id="method1" name="method1" value="method1" checked>
+                                <label for="method1">Pick up in store, including frame fitting and adjustment</label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="field-container betalning">
+                    <h4>Betalning</h4>
+                    <form action="">
+                        <div class="field-1 margin-24">
+                            <label for="cardnr">Kortnummer</label>
+                            <input class="text" id="cardnr" type="cardnr" placeholder="8151 5815 1751 9151">
+                        </div>
+                        <div class="field-2 margin-24">
+                            <label for="cardnamne">Namn på kort</label>
+                            <input class="text" id="cardname" type="cardname" placeholder="John Doe">
+                        </div>
+                        <div class="field-3 margin-24">
+                            <label for="expirydate">Utgångsdataum</label>
+                            <input class="text" id="expirydate" type="expirydate" placeholder="06/23">
+                        </div>
+                        <div class="field-4 margin-24">
+                            <label for="securecode">Säkerhetskod</label>
+                            <input class="text" id="securecode" type="securecode" placeholder="123">
+                        </div>
+                    </form>
+                    <a href="home-page.html" class="btn-container-primary">
+                        <div class="btn">
+                            Betala nu
+                            <img src="img/arrow-right.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="grid-item overview-details">
+                <div class="logo-container">
+                    <img src="img/logotyp_nav.svg" alt="">
+                </div>
+                <div class="border"></div>
+                <h4>Din kasse</h4>
+                <div class="items item-1">
+                    <div class="image-item">
+                        <div class="image">
+                        </div>
+                    </div>
+                    <div class="item-info">
+                        <div class="upper">
+                            <div class="name-price">
+                                <div class="name">LAVE Bänk</div>
+                                <div class="price">15 175 SEK</div>
+                            </div>
+                            <div class="formg-type">
+                                <div class="overline">Pierre Sindre</div>
+                                <div class="overline">Trä</div>
+                            </div>
+                        </div>
+                        <div class="lower">
+                            <div class="amount">1</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="summary">
+                    <div class="title">
+                        <span>Artiklar</span>
+                        <span>1</span>
+                    </div>
+                    <div class="border"></div>
+                    <div class="title">
+                        <span>Frakt</span>
+                        <span>100 kr</span>
+                    </div>
+                    <div class="border"></div>
+                    <div class="title">
+                        <span>Totalt</span>
+                        <span>15 275 SEK</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
