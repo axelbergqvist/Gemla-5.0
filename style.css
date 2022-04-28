@@ -548,10 +548,11 @@ body {
   height: 100vh;
   position: fixed;
   top: 0;
-  right: -800px;
+  right: -1000px;
+  opacity: .3;
   background-color: white;
-  -webkit-transition: right .5s ease-in-out;
-  transition: right .5s ease-in-out;
+  -webkit-transition: right .6s ease-in-out;
+  transition: right .6s ease-in-out;
 }
 
 @media (max-width: 480px) {
@@ -561,6 +562,7 @@ body {
 }
 
 .cart-bar:target {
+  opacity: 100;
   right: 0;
 }
 
